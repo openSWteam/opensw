@@ -2,7 +2,7 @@
 
 이 저장소는 [SpringBoot-Board](https://github.com/beeguriri/SpringBoot-Board) 프로젝트를 이용하여 도커 이미지를 만들기 위한 용도입니다.
 - 원본 프로젝트에 관심이 있다면 [여기](https://github.com/beeguriri/SpringBoot-Board)에서 확인하세요.
-- [도커 이미지(https://hub.docker.com/r/yo00oy/board)]
+- [도커 이미지](https://hub.docker.com/r/yo00oy/board)
 
 # SpringBoot-Board
 + `Springboot` &nbsp;`JPA` &nbsp; `MySQL` 이용한 게시판 만들기 <br>
