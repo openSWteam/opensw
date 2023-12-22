@@ -5,6 +5,7 @@
 - [도커 이미지](https://hub.docker.com/r/yo00oy/board)
 - redmie test
 - redmine test2
+- gd
 
 # SpringBoot-Board
 + `Springboot` &nbsp;`JPA` &nbsp; `MySQL` 이용한 게시판 만들기 <br>
