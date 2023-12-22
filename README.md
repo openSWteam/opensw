@@ -7,8 +7,7 @@
 - redmine test2
 - gd
 - redmine test3
-- ㅠㅠㅠ11
-- 555555566
+  쳌쳌쳌
 
 # SpringBoot-Board
 + `Springboot` &nbsp;`JPA` &nbsp; `MySQL` 이용한 게시판 만들기 <br>
