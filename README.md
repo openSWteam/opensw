@@ -6,6 +6,7 @@
 - redmie test
 - redmine test2
 - gd
+- redmine test3
 
 # SpringBoot-Board
 + `Springboot` &nbsp;`JPA` &nbsp; `MySQL` 이용한 게시판 만들기 <br>
