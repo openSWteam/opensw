@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redmine
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redmine
+  template:
+    metadata:
+      labels:
+        app: redmine
+    spec:
+      containers:
+      - name: redmine
+        image: redmine:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: REDMINE_DB_MYSQL
+          value: mysql-service
+        - name: REDMINE_DB_DATABASE
+          value: "redminedb"
+        - name: REDMINE_DB_USERNAME
+          value: "root"
+        - name: REDMINE_DB_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysql-root
+              key: password
+        - name: REDMINE_DB_HOST
+          value: mysql-service
